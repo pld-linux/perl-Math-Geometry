@@ -9,7 +9,7 @@ Summary:	Math::Geometry - geometry related functions
 Summary(pl):	Math::Geometry - funkcje zwi±zane z geometri±
 Name:		perl-Math-Geometry
 Version:	0.03
-Release:	2
+Release:	3
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/GMCCAR/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -30,6 +30,7 @@ Ten pakiet zawiera implementacje klasycznych metod geometrycznych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
+%{__perl} -pi -e '$.==1&&s|/usr/local/|/usr/|' Geometry.pm
 
 %build
 %{__perl} Makefile.PL \
