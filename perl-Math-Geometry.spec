@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Geometry
+%define		pdir	Math
+%define		pnam	Geometry
 Summary:	Math::Geometry - geometry related functions
 Summary(pl):	Math::Geometry - funkcje zwi±zane z geometri±
 Name:		perl-Math-Geometry
