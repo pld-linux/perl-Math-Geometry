@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Geometry
 Summary:	Math::Geometry - geometry related functions
-Summary(pl):	Math::Geometry - funkcje zwi±zane z geometri±
+Summary(pl.UTF-8):   Math::Geometry - funkcje zwiÄ…zane z geometriÄ…
 Name:		perl-Math-Geometry
 Version:	0.03
 Release:	3
@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This package implements classic geometry methods.
 
-%description -l pl
+%description -l pl.UTF-8
 Ten pakiet zawiera implementacje klasycznych metod geometrycznych.
 
 %prep
