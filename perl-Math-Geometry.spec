@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Geometry
 Summary:	Math::Geometry - geometry related functions
-Summary(pl.UTF-8):   Math::Geometry - funkcje związane z geometrią
+Summary(pl.UTF-8):	Math::Geometry - funkcje związane z geometrią
 Name:		perl-Math-Geometry
 Version:	0.03
 Release:	3
