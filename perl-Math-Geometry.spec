@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	Geometry
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Geometry - geometry related functions
 Summary(pl.UTF-8):	Math::Geometry - funkcje związane z geometrią
 Name:		perl-Math-Geometry
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	bc05acfb1b8ddcc3bb869f0df13ea15b
+URL:		http://search.cpan.org/dist/Math-Geometry/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
